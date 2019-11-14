@@ -8,4 +8,4 @@ Exibindo as categorias
 Exibindo os produtos
 ![Captura do exemplo](Imagens/ExemploProdutosMVC_Produtos.PNG)
 Exibindo detalhes de Categoria com sua coleção de Produtos
-![Captura do exemplo](Imagens/exemplo_produtos_mvc_detalhes_categoria_com_produtos.png)
+![Captura do exemplo](Imagens/exemplo_produtos_mvc_detalhes_categoria_com_produtos.PNG)
