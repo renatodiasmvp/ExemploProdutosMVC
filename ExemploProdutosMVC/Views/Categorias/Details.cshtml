@@ -10,13 +10,24 @@
     <h4>Categoria</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Nome)
         </dt>
-        <dd class = "col-sm-10">
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Nome)
         </dd>
     </dl>
+    <h4>Produtos relacionados a Categoria</h4>
+    <div class="row">
+
+        <ul class="list-group">
+            @foreach (var produto in Model.Produtos)
+            {
+                <li class="list-group-item">@produto.Nome</li>
+            }
+        </ul>
+
+    </div>
 </div>
 <div>
     <a asp-action="Edit" asp-route-id="@Model.CategoriaId">Alterar</a> |
